@@ -1,0 +1,19 @@
+{
+  "name": "validation-bd",
+  "version": "1.0.0",
+  "description": "Validate Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Paul Gutierrez <paerguca@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "co": "^4.6.0",
+    "micro": "^9.3.3",
+    "moment": "^2.22.2",
+    "rethinkdb": "^2.3.3",
+    "uuid-base62": "^0.1.0"
+  }
+}
